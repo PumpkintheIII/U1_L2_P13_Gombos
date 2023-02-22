@@ -8,9 +8,9 @@
 int main(void) { //define main function
   float salary, weekly; //intialize variable as float
 
-  printf("This program allows you to enter your yearly salary and the program will output your weekly salary. You will get a prompt to enter your yearly salary:\n\t- Yearly Salary: Please enter your yearly salary here\n"); //instructions
+  printf("This program allows you to enter your yearly salary and the program will output your weekly salary. You will get a prompt to enter your yearly salary:\n\t- Yearly Salary: Please enter your yearly salary\n"); //instructions
   
-  printf("Yearly Salary: "); //ask for yearly salary
+  printf("Yearly Salary: $"); //ask for yearly salary
   scanf("%f", &salary); //accept input and format as float
 
   weekly = salary/52; //find weekly salary
